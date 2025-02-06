@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/employeeDetails.css">
+    <script defer src="../js/employeeDetails.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <img src="../assets/logo.jpeg" alt="Company Logo">
+        <h1>Employee Payroll</h1>
+    </div>
+
+    <div class="container">
+        <div class="title-bar">
+            <div class="title">Employee Details</div>
+            <div class="action-bar">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search..." oninput="searchEmployee()">
+                    <span class="clear-btn" onclick="clearSearch()">&#10006;</span>
+                    <button onclick="searchEmployee()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <a href="employeePayroll.html" class="add-user">
+                    <i class="fas fa-plus"></i> Add User
+                </a>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>PROFILE IMAGE</th>
+                        <th>NAME</th>
+                        <th>GENDER</th>
+                        <th>DEPARTMENT</th>
+                        <th>SALARY</th>
+                        <th>START DATE</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    <!-- Employees will be populated here dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
