@@ -1,0 +1,77 @@
+{
+  "employees": [
+    {
+      "name": "Rahul  ma",
+      "gender": "Male",
+      "salary": "80000",
+      "startDate": "15/4/1906",
+      "profileImage": "../assets/p3.jpeg",
+      "departments": [
+        "Sales"
+      ],
+      "notes": "hi",
+      "id": "a791"
+    },
+    {
+      "name": "harry s",
+      "gender": "Female",
+      "salary": "70000",
+      "startDate": "3/11/1913",
+      "profileImage": "../assets/p3.jpeg",
+      "departments": [
+        "HR"
+      ],
+      "notes": "hii",
+      "id": "27af"
+    },
+    {
+      "name": "Rahul m",
+      "gender": "Male",
+      "salary": "80000",
+      "startDate": "5/4/1908",
+      "profileImage": "../assets/p3.jpeg",
+      "departments": [
+        "Sales"
+      ],
+      "notes": "hi",
+      "id": "9f16"
+    },
+    {
+      "id": "5dd9",
+      "name": "gfdm",
+      "gender": "Male",
+      "salary": "70000",
+      "startDate": "5/6/1904",
+      "profileImage": "../assets/p2.jpeg",
+      "departments": [
+        "Sales"
+      ],
+      "notes": "hii"
+    },
+    {
+      "id": "4f24",
+      "name": "rajesh",
+      "gender": "Male",
+      "salary": "60000",
+      "startDate": "5/5/1906",
+      "profileImage": "../assets/p3.jpeg",
+      "departments": [
+        "Sales"
+      ],
+      "notes": "hi"
+    },
+    {
+      "id": "efc9",
+      "name": "rajesh  nj",
+      "gender": "Male",
+      "salary": "70000",
+      "startDate": "7/9/1904",
+      "profileImage": "../assets/p4.jpeg",
+      "departments": [
+        "Sales",
+        "HR"
+      ],
+      "notes": "hiiincjnc"
+    }
+  ]
+}
